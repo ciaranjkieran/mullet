@@ -1,0 +1,42 @@
+# === General (applies to the whole project) ===
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.swp
+*.iml
+*.lock
+*.tmp
+
+# === Backend (Python/Django) ===
+/backend/venv/
+/backend/.env
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/db.sqlite3
+**/*.sqlite3
+/backend/*.pot
+**/*.py[co]
+/backend/migrations/
+!/backend/migrations/*.py
+!/backend/migrations/__init__.py
+/backend/staticfiles/
+/backend/media/
+
+# === Android ===
+/android/local.properties
+/android/.idea/
+/android/**/.idea/
+/android/**/*.iml
+/android/**/*.apk
+/android/**/*.dex
+/android/**/captures/
+/android/**/externalNativeBuild/
+/android/**/cxx/
+/android/**/generated/
+/android/.gradle/
+/android/gradle/wrapper/
+/android/gradle/wrapper/gradle-wrapper.jar
+/android/gradle/wrapper/gradle-wrapper.properties
+/android/**/build/
